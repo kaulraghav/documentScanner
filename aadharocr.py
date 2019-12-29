@@ -16,7 +16,6 @@ def aadharocr(imageCopy, resized):
 	greyCopy = cv2.cvtColor(imageCopy, cv2.COLOR_BGR2GRAY)
 	resizedCopy = imutils.resize(greyCopy, height=550)
 
-
 	cv2.imwrite("temp.png", greyRes)
 	cv2.imwrite("temp1.png", greyCopy)
 
@@ -48,8 +47,6 @@ def aadharocr(imageCopy, resized):
 		text2 = text.split(yearline,1)[1]
 	except:
 		pass
-
-
 
 	# Date of Birth
 	try:
