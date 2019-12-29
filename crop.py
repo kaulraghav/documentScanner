@@ -8,7 +8,6 @@ from scipy.ndimage.filters import rank_filter
 import json
 import os
 
-
 def dilate(ary, N, iterations):
     """Dilate using an NxN '+' sign shape. ary is np.uint8."""
 
